@@ -38,5 +38,4 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1024px-Apache_Maven_logo.svg.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="File:Apache Maven logo.svg - Wikimedia Commons" data-noaft="1" style="width: 80px; height: 30px; margin: 50px 0px;">
 <img src="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2014/05/6bcfa3b39d60abff28f02392c4b83705.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="ColdFusion + Apache POIを使って既存EXCELシートを更新する | DevelopersIO" data-noaft="1" style="width: 40px; height: 40px; margin: 0px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Apache_Log4j_Logo.png/800px-Apache_Log4j_Logo.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Log4j - Wikipedia" data-noaft="1" style="width: 80px; height: 40px; margin: 15px 0px;">
-<img class="im-logo" width="48" height="48" src="/img/c9bb0231a6fefd4f46f122216775b6ba">
 </p>
