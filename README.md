@@ -19,6 +19,9 @@
   
 
 - Maven 'Lifecycle' menüsünden sırasıyla clean ve verify seçenekleri tıklanarak run edilebilir  
+
+
+- Detaylı raporlar 'target' klasörünün altında bulunan 'cucumber-html-reports' klasöründeki html uzantılı dosyalardadır
   
 
 <br/>  
