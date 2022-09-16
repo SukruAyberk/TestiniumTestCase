@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.2">
+    <testcase classname="Testinium Test Case" name="Kullanici kitap yurdu sayfasinda roman aratir, sepete ekler ve sepetten cikarir" time="0.069">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "kitapYurduUrl" anasayfasinda...............................undefined
+Then kullanici ana sayfanin acildigini kontrol eder.........................skipped
+And kullanici "roman" icin arama yapar......................................skipped
+And kullanici rastgele bir kitap secer......................................skipped
+And kullanici sectigi kitabi sepete ekler...................................skipped
+Then kullanici sepet ikonundaki degerin "1" oldugunu kontrol eder...........skipped
+And kullanici sepetim butonuna tiklar.......................................skipped
+And kullanici sepeti git butonuna tiklar....................................skipped
+And kullanici ürün miktarini bir adet artirir...............................skipped
+And kullanici yenile butonuna tiklar........................................skipped
+Then kullanici "Sepetiniz güncelleniyor" yazisinin geldigini kontrol eder...skipped
+And kullanici carpi butonuna basar..........................................skipped
+Then kullanici sepetin bos oldugunu kontrol eder............................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
