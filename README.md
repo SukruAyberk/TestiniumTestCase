@@ -1,5 +1,5 @@
 <div align="center">
-<img src="//im4.ezgif.com/tmp/ezgif-4-45df9a3177.gif" style="width:800px;height:450px" alt="[video-to-gif output image]">
+<img src="https://github.com/SukruAyberk/Giffs/blob/main/ezgif-4-45df9a3177.gif" style="width:800px;height:450px" alt="[video-to-gif output image]">
 </div>  
   
 
