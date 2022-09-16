@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
 
         tags = "@testinium",
 
-        dryRun = true
+        dryRun = false
 )
 public class Runner {
 }

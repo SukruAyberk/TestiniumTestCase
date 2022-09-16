@@ -43,7 +43,11 @@ public class KitapYurduStepDefinitions {
     @And("kullanici roman icin arama yapar")
     public void kullaniciRomanIcinAramaYapar() {
         String searchResult = ReusableMethods.csvReader("src/fileResources/testinium.csv");
-        kitapYurdu.textArea.sendKeys(searchResult + Keys.ENTER);
+        //kitapYurdu.textArea.sendKeys(searchResult + Keys.ENTER);
+        kitapYurdu.textArea.sendKeys(searchResult);
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
+        kitapYurdu.textArea.sendKeys(Keys.ENTER);
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
 
@@ -54,13 +58,14 @@ public class KitapYurduStepDefinitions {
         WebElement product = Driver.getDriver().findElement(By.xpath("(//div[@class='image'])[" + i + "]"));
         ReusableMethods.waitForClickablility(product, 10);
         product.click();
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
     @Then("kullanici sectigi kitabi sepete ekler")
     public void kullanici_sectigi_kitabi_sepete_ekler() {
         ReusableMethods.waitForClickablility(kitapYurdu.addToCartButton, 10);
         kitapYurdu.addToCartButton.click();
-        ReusableMethods.waitFor(1);
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
     @Then("kullanici sepet ikonundaki degerin {string} oldugunu kontrol eder")
@@ -74,12 +79,14 @@ public class KitapYurduStepDefinitions {
     public void kullanici_sepetim_butonuna_tiklar() {
         ReusableMethods.waitForClickablility(kitapYurdu.cartIcon, 10);
         kitapYurdu.cartIcon.click();
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
     @Then("kullanici sepeti git butonuna tiklar")
     public void kullanici_sepeti_git_butonuna_tiklar() {
         ReusableMethods.waitForClickablility(kitapYurdu.goToCartButton, 10);
         kitapYurdu.goToCartButton.click();
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
     @Then("kullanici ürün miktarini bir adet artirir")
@@ -90,7 +97,9 @@ public class KitapYurduStepDefinitions {
         System.out.println(secondValue);
         String secondValueInput = String.valueOf(secondValue);
         kitapYurdu.quantityTextArea.clear();
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
         kitapYurdu.quantityTextArea.sendKeys(secondValueInput);
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
 
     }
 
@@ -98,6 +107,7 @@ public class KitapYurduStepDefinitions {
     public void kullanici_yenile_butonuna_tiklar() {
         ReusableMethods.waitForClickablility(kitapYurdu.refreshButton, 10);
         kitapYurdu.refreshButton.click();
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
     @Then("kullanici Sepetiniz güncelleniyor yazisinin geldigini kontrol eder")
@@ -110,7 +120,7 @@ public class KitapYurduStepDefinitions {
     public void kullanici_carpi_butonuna_basar() {
         ReusableMethods.waitForClickablility(kitapYurdu.deleteButton, 10);
         kitapYurdu.deleteButton.click();
-        ReusableMethods.waitFor(1);
+        ReusableMethods.waitFor(1); // waitFor() methodu adımların net görülebilmesi için eklendi
     }
 
     @Then("kullanici sepetin bos oldugunu kontrol eder")
