@@ -34,4 +34,5 @@
 <div align="center">  
 <a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
 <a href="https://www.selenium.dev/" target="_blank" rel="noreferrer"><img src="https://www.selenium.dev/images/selenium_logo_square_green.png" width="36" height="36" alt="<SELENIUM" /></a>
+<img itemprop="image" class="avatar flex-shrink-0 mb-3 mr-3 mb-md-0 mr-md-4" src="https://avatars.githubusercontent.com/u/320565?s=200&amp;v=4" width="100" height="100" alt="@cucumber">
 </div>
